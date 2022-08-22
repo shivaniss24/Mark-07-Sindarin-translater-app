@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mukta:wght@400;700&display=swap');
+*
+{
+    /* font-family: */
+    --primary-color:#fed7aa;
+    --secondary-color:#fdba74;
+    --primary-lack:black;
+    margin: 0;
+    font-family:cursive;
+}
+body 
+{
+    background:radial-gradient(var(--primary-color),var(--secondary-color));
+    color: var(--primary-lack);
+    display:grid;
+    place-content: center;
+    padding: 1rem;
+    row-gap: 0.8rem;
+    /* width: 700px; */
+}
+h1
+{
+text-align: center;
+font-size: 2rem;
+padding:1rem;
+}
+.input
+{
+      border-block-color: red;
+       border-bottom-left-radius: 1rem;
+       border-top-right-radius: 1rem;
+       text-align: start;
+       display: block;
+       min-height: 15vh;
+      margin-left:4rem;
+      margin-right: 4rem;
+}
+.btn-translate
+{
+    margin:auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border:1px solid black ;
+    border-radius: 2rem;
+    background-color: white ;
+    font-size: medium;
+    border: 1px solid red;
+
+}
+button:hover
+{
+    background-color: aqua;
+}
+.output
+{
+    border-block-color: red;
+       border-bottom-left-radius: 1rem;
+       border-top-right-radius: 1rem;
+       text-align: start;
+       display: block;
+       min-height: 15vh; 
+       margin-left: 4rem;
+       margin-right: 4rem;
+}
+
+.container
+{
+    padding:1rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+    min-height: 15vh;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-left:4rem;
+    margin-right: 4rem;
+    border-block-color: red;
+
+}
+h3
+{
+    text-align: center;
+}
+
+.scroll
+{
+    padding: 1rem;
+    width: 60%;
+    color: red;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
