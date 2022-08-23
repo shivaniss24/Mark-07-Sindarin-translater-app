@@ -35,7 +35,7 @@ padding:1rem;
       margin-left:4rem;
       margin-right: 4rem;
 }
-.btn-translate
+#btn-translate
 {
     margin:auto;
     margin-top: 1.5rem;
@@ -47,10 +47,6 @@ padding:1rem;
     font-size: medium;
     border: 1px solid red;
 
-}
-button:hover
-{
-    background-color: aqua;
 }
 .output
 {
@@ -89,7 +85,10 @@ h3
     color: red;
     font-size: medium;
 }
-
+button:hover
+{
+    background-color: aqua;
+}
 
 
 
