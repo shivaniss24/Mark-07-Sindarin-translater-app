@@ -10,7 +10,7 @@ function getTranslation(text)
 
 function errorHandler(error)
 {
-    
+         
 }
 
 
